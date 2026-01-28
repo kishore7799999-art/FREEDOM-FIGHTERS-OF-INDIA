@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/Users/anuan/FREEFOM%20FIGHTERS/INDEX.HTML -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Indian Freedom Fighters - Detailed Library</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #FF9933, #FFFFFF, #138808);
+        background-attachment: fixed;
+        min-height: 100vh;
+        color: #333;
+    }
+
+    header {
+        text-align: center;
+        padding: 40px 20px;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    header h1 { margin: 0; font-size: 2.5rem; }
+
+    .list-container {
+        text-align: center;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(5px);
+    }
+
+    .list-container button {
+        margin: 5px;
+        padding: 12px 20px;
+        font-size: 14px;
+        font-weight: 600;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        background: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .list-container button:hover {
+        background: #000080;
+        color: white;
+        transform: translateY(-2px);
+    }
+
+    .card {
+        width: 90%;
+        max-width: 1000px;
+        margin: 40px auto;
+        padding: 30px;
+        display: flex;
+        gap: 30px;
+        border-radius: 15px;
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        animation: fadeIn 0.5s ease;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card img {
+        width: 250px;
+        height: 320px;
+        object-fit: cover;
+        border-radius: 10px;
+        border: 5px solid #f0f0f0;
+    }
+
+    .details { flex: 1; }
+
+    .details h2 {
+        margin-top: 0;
+        color: #000080;
+        border-bottom: 2px solid #FF9933;
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .details ul {
+        padding-left: 20px;
+        line-height: 1.6;
+    }
+
+    .details li {
+        margin-bottom: 8px;
+        font-size: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .card { flex-direction: column; align-items: center; }
+        .card img { width: 100%; max-width: 300px; }
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #333;
+        color: white;
+        margin-top: 50px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>FREEDOM FIGHTERS OF INDIA</h1>
+    <p>Honoring the legends of the Indian Independence Movement</p>
+</header>
+
+<div class="list-container" id="nameList"><button>Mahatma Gandhi</button><button>Subhas Chandra Bose</button><button>Bhagat Singh</button><button>Rani Lakshmibai</button><button>Sardar Vallabhbhai Patel</button></div>
+<div id="output">
+        <div class="card">
+            <img src="./FREEDOM FIGHTERS OF INDIA._files/Bhagat_Singh_1929.jpg" alt="Bhagat Singh">
+            <div class="details">
+                <h2>Bhagat Singh</h2>
+                <ul><li>Regarded as one of the most influential revolutionaries of the movement.</li><li>Joined the Hindustan Socialist Republican Association (HSRA).</li><li>Was deeply affected by the Jallianwala Bagh Massacre as a child.</li><li>Involved in the Lahore Conspiracy Case against British officer Saunders.</li><li>Exploded non-lethal smoke bombs in the Central Legislative Assembly in 1929.</li><li>Used his trial as a platform to spread the message of revolution.</li><li>Conducted a 116-day hunger strike in jail for prisoner rights.</li><li>Authored the famous essay 'Why I am an Atheist' while imprisoned.</li><li>Popularized the slogan 'Inquilab Zindabad' (Long Live the Revolution).</li><li>Was executed at the young age of 23, becoming a supreme martyr (Shaheed).</li></ul>
+            </div>
+        </div>
+    </div>
+
+<footer>
+    © 2026 History Project | Designed for Education
+</footer>
+
+<script>
+const fighters = [
+    {
+        name: "Mahatma Gandhi",
+        img: " https://tse3.mm.bing.net/th/id/OIP.JLXNYk-hGKA2bJqpyZtzPgHaEK?pid=Api&P=0&h=180",
+        points: [
+            "Known as the 'Father of the Nation' for his pivotal role in independence.",
+            "Pioneered the philosophy of Ahimsa (Non-violence) and Satyagraha.",
+            "Led the Dandi Salt March in 1930 against the British salt monopoly.",
+            "Launched the Quit India Movement in 1942 with the slogan 'Do or Die'.",
+            "Promoted the use of Khadi to encourage Indian self-reliance.",
+            "Advocated for the abolition of untouchability and social equality.",
+            "Successfully led the Champaran and Kheda Satyagrahas for farmers.",
+            "Spent several years in prison for his political activism.",
+            "Maintained a life of extreme simplicity and spiritual discipline.",
+            "His birthday, October 2nd, is observed globally as the Day of Non-Violence."
+        ]
+    },
+    {
+        name: "Subhas Chandra Bose",
+        img: " https://tse3.mm.bing.net/th?id=OIF.tZ%2bOyqJoeuIESG%2bP3ZQ6UA&pid=Api&P=0&h=180",
+        points: [
+            "Affectionately known as 'Netaji' (Respected Leader).",
+            "Resigned from the prestigious Indian Civil Service (ICS) to join the struggle.",
+            "Served as the President of the Indian National Congress in 1938.",
+            "Formed the All India Forward Bloc within the Congress party.",
+            "Escaped house arrest in 1941 to seek international support against the British.",
+            "Revitalized the Indian National Army (INA) or Azad Hind Fauj.",
+            "Coined the famous patriotic salutation 'Jai Hind'.",
+            "Famously said, 'Give me blood, and I shall give you freedom!'",
+            "Established the first Provisional Government of Free India in Singapore.",
+            "Created the Rani of Jhansi Regiment, one of the first all-female combat units."
+        ]
+    },
+    {
+        name: "Bhagat Singh",
+        img: "https://upload.wikimedia.org/wikipedia/commons/5/54/Bhagat_Singh_1929.jpg",
+        points: [
+            "Regarded as one of the most influential revolutionaries of the movement.",
+            "Joined the Hindustan Socialist Republican Association (HSRA).",
+            "Was deeply affected by the Jallianwala Bagh Massacre as a child.",
+            "Involved in the Lahore Conspiracy Case against British officer Saunders.",
+            "Exploded non-lethal smoke bombs in the Central Legislative Assembly in 1929.",
+            "Used his trial as a platform to spread the message of revolution.",
+            "Conducted a 116-day hunger strike in jail for prisoner rights.",
+            "Authored the famous essay 'Why I am an Atheist' while imprisoned.",
+            "Popularized the slogan 'Inquilab Zindabad' (Long Live the Revolution).",
+            "Was executed at the young age of 23, becoming a supreme martyr (Shaheed)."
+        ]
+    },
+    {
+        name: "Rani Lakshmibai",
+        img: " https://www.poojn.in/wp-content/uploads/2025/05/Rani-Lakshmi-Bai-A-Symbol-of-Courage-and-Resistance-The-Story-of-the-Warrior-Queen.jpeg.jpg",
+        points: [
+            "The Queen of the Maratha-ruled princely state of Jhansi.",
+            "One of the leading figures of the Indian Rebellion of 1857.",
+            "Fought against the 'Doctrine of Lapse' imposed by the British.",
+            "She was trained in horse riding, archery, and self-defense from childhood.",
+            "Famously defended Jhansi fort against British troops led by Sir Hugh Rose.",
+            "Escaped the fort with her son Damodar Rao tied to her back.",
+            "Captured the Gwalior fort along with other rebel leaders.",
+            "Fought dressed as a man in the battlefield to lead her troops.",
+            "Died fighting valiantly near Gwalior on June 18, 1858.",
+            "Became a symbol of female bravery and resistance in Indian history."
+        ]
+    },
+    {
+        name: "Sardar Vallabhbhai Patel",
+        img: " https://hindi.news24online.com/wp-content/uploads/2023/10/BeFunky-photo-3-1.jpg",
+        points: [
+            "Known as the 'Iron Man of India' for his uncompromising willpower.",
+            "Played a major role in the Bardoli Satyagraha, earning the title 'Sardar'.",
+            "Served as the first Deputy Prime Minister and Home Minister of India.",
+            "Instrumental in the integration of over 560 princely states into India.",
+            "Unified the nation after partition through brilliant diplomacy and force.",
+            "Often called the 'Patron Saint of India's civil servants'.",
+            "Was a successful lawyer before dedicating his life to freedom.",
+            "A key architect of the Constitution of India.",
+            "Advocated for women's empowerment and rural development.",
+            "The Statue of Unity, the world's tallest statue, is dedicated to him."
+        ]
+    }
+];
+
+// Generate Buttons
+const buttonContainer = document.getElementById("nameList");
+fighters.forEach((fighter, index) => {
+    const btn = document.createElement("button");
+    btn.innerText = fighter.name;
+    btn.onclick = () => showFighter(index);
+    buttonContainer.appendChild(btn);
+});
+
+// Function to Show Fighter Details
+function showFighter(index) {
+    const f = fighters[index];
+    const listItems = f.points.map(point => `<li>${point}</li>`).join("");
+    
+    document.getElementById("output").innerHTML = `
+        <div class="card">
+            <img src="${f.img}" alt="${f.name}">
+            <div class="details">
+                <h2>${f.name}</h2>
+                <ul>${listItems}</ul>
+            </div>
+        </div>
+    `;
+}
+
+// Load the first fighter by default
+showFighter(0);
+</script>
+
+
+</body></html>
